@@ -1,0 +1,53 @@
+/* NavBar  */
+
+nav {
+    display: flex; /* Aligns list items horizontally */
+    justify-content: flex-end; /* Pushes the items to the right */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+nav ul {
+    display: flex; /* Ensures the list items are horizontal */
+    list-style: none; /* Removes bullet points */
+    margin: 15px; /* default margin for the <ul> 15px  */
+    padding: 0px; /* Ensures no default padding for the <ul> */
+}
+
+nav li {
+    margin-left: 20px; /* Adds space between each menu item */
+}
+
+nav a {
+    text-decoration: none; /* Removes underline from links */
+    color: #000; /* Sets the link color */
+    font-size: 16px; /* Adjusts font size */
+}
+
+nav a:hover {
+    color: #007BFF; /* Changes link color on hover */
+}
+
+/* Table Styling */
+.table {
+    width: 100vh;
+    border-collapse: collapse;
+    margin:20px;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.table th, .table td{
+    border: 1px solid rgb(8, 121, 8);
+    padding: 10px;
+    
+}
+
+.table th {
+    border-radius: 10%;
+    font-weight: bold;
+}
+
+tr:hover{
+    background-color:aquamarine;
+}
